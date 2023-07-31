@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inter&family=Roboto+Condensed&display=swap');
+
+.titulo1{
+    background-color: rgb(211, 143, 238);
+    font-size: 2rem;
+    color: rgb(217, 208, 224);
+    justify-content: center;
+    font-family: 'Borel', cursive;
+}
+.titulo2{
+    font-family: 'Inter', sans-serif;
+}
+.titulo3{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: rgb(130, 86, 227);
+    font-family: 'Inter', sans-serif;
+}
+button:hover{
+    background-color: black;
+}
+body{
+    background-color: #a27ac3;
+    background-image: linear-gradient(62deg, #a27ac3 0%, #b071da 19%, #b9a2d0 39%, #b29ad0 60%, #c4b2d4 80%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: #a27ac3;
+    color: white;
+}
+.table td:hover{
+    background-color: #b29ad0;
+    color: white;
+}
+.table th:hover{
+    background-color: #b071da;
+    color: plum;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Borel', cursive;
+    font-size: 25px;
+
+}
